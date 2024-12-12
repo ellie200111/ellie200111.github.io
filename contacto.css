@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(Imagenes/ser.jpg);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 900;
+
+
+}
+
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    background-color: rgb(241, 140, 7);
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-weight: 100px;
+}
+.menu .navbar ul li a:hover{
+    color: #af2a2a;
+}
+
+#menu{
+    display: none;
+
+}
+
+.menu-icono{
+    width: 25px;
+
+}
+
+
+.menu label{
+    cursor: pointer;
+    
+}
+
+.header-content h1{
+    text-align: center;
+}
+
+
+
+
+
+.form-register {
+    width: 800px;
+    background: #f3770a;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: azure;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: #f0f1f3;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #af2a2a;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: underline;
+
+}
+
+
+.form-register .botons{
+    width: 100%;
+    background: #af2a2a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+
+}
+
+
+
+
+
+
+.btn-1:hover {
+    background-color: rgba(255, 252, 64, 0.467);
+}
+.wari{
+    padding: 80px 0;
+    
+    position: relative;
+}
+.wari-content {
+    text-align: center;
+}
+.wari-content  h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: rgb(195, 69, 23);
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+
+}
+
+.txt-p{
+    font-size: 16px;
+    color: rgb(8, 7, 7);
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+.wari-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.wari-1 {
+    padding: 0 50px;
+}
+
+.wari-1 img{
+    width:130px;
+    height: 120px;
+
+}
+
+.wari-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.wari-1 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.services{
+    background-image: linear-gradient(rgba(229, 221, 221, 0.7),rgba(255, 255, 255, 0.7)), url(Imagenes/pont.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.services-content {
+    text-align: center;
+
+}
+.services-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f3770a;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.services-content p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding: 0 100px;
+
+}
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1 {
+    padding: 18px 50px;
+    
+}
+
+.services-1 img{
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.services-1 h3 {
+    color: #9f0000;
+    font-size: 20px;
+}
+
+
+.general{
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: rgb(12, 12, 11);
+}
+
+.general-2 {
+    background-image: url(Imagenes/coffe-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-3 {
+    background-image: url(Imagenes/coffee-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+p{
+    font-size: 16px;
+    color: rgb(253, 253, 253);
+    margin: 25px 0 45px 0;
+}
+
+.blog{
+    padding: 100px 0;
+    text-align: center;
+
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+.blog-1{
+    padding: 15px 55px;
+
+}
+
+.blog-1 img{
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3{
+    font-size: 25px;
+    color: slategrey;
+}
+
+.footer{
+    padding: 80px 0;
+    background-color: black;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link h3{
+    font-size: 18px;
+    color: rgb(226, 217, 217);
+    margin-bottom: 15px;
+
+}
+
+.link a {
+    font-size: 16px;
+    color: grey;
+    display: block;
+    margin-bottom: 15px;
+}
